@@ -23,6 +23,14 @@ void loop() {
     x++;
   }
 
+  if (x == 0){
+
+  digitalWrite(LED_R, HIGH); 
+  digitalWrite(LED_G, HIGH);  
+  digitalWrite(LED_B, HIGH);  
+  delay(200);
+  }  
+
   if (x == 1){
 
   digitalWrite(LED_R, LOW); 
